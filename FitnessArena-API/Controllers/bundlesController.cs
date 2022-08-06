@@ -130,7 +130,7 @@ namespace FitnessArena_API.Controllers
             return (_context.bundles?.Any(e => e.bundleId == id)).GetValueOrDefault();
         }
 
-        [HttpDelete("{/rateb}")]
+        [HttpDelete("/rateb")]
         public async Task<IActionResult> Deletebund(int id)
         {
             if (_context.bundles == null)
