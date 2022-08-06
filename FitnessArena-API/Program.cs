@@ -20,11 +20,10 @@ builder.Services.AddDbContext<fitnessgarageContext>
     );
 
 //cors
-builder.Services.AddCors(
-    o => {
-        o.AddPolicy("cors",
-        builder => builder.WithOrigins("*").AllowAnyHeader().AllowAnyMethod());
-    });
+builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+{
+    builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
 //jwt configs
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
     o => {
@@ -52,7 +51,7 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-app.UseCors("cors");
+app.UseCors("corsapp");
 
 app.UseAuthentication();
 
