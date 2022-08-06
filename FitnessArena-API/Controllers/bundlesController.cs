@@ -129,5 +129,24 @@ namespace FitnessArena_API.Controllers
         {
             return (_context.bundles?.Any(e => e.bundleId == id)).GetValueOrDefault();
         }
+
+        [HttpDelete("{/rateb}")]
+        public async Task<IActionResult> Deletebund(int id)
+        {
+            if (_context.bundles == null)
+            {
+                return NotFound();
+            }
+            var bundle = await _context.bundles.FindAsync(id);
+            if (bundle == null)
+            {
+                return NotFound();
+            }
+
+            _context.bundles.Remove(bundle);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }

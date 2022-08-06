@@ -11225,19 +11225,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahmed.abdelhaleem\\.nuget\\packages\\": {}
+    "C:\\Users\\Halimo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed.abdelhaleem\\source\\repos\\FitnessArena-API\\FitnessArena-API\\FitnessArena-API.csproj",
+      "projectUniqueName": "E:\\fitness arena\\FitnessArena-API\\FitnessArena-API.csproj",
       "projectName": "FitnessArena-API",
-      "projectPath": "C:\\Users\\ahmed.abdelhaleem\\source\\repos\\FitnessArena-API\\FitnessArena-API\\FitnessArena-API.csproj",
-      "packagesPath": "C:\\Users\\ahmed.abdelhaleem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmed.abdelhaleem\\source\\repos\\FitnessArena-API\\FitnessArena-API\\obj\\",
+      "projectPath": "E:\\fitness arena\\FitnessArena-API\\FitnessArena-API.csproj",
+      "packagesPath": "C:\\Users\\Halimo\\.nuget\\packages\\",
+      "outputPath": "E:\\fitness arena\\FitnessArena-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ahmed.abdelhaleem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Halimo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11326,7 +11326,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
